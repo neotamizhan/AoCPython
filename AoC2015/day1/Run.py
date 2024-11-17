@@ -1,7 +1,7 @@
 import os
 import sys
 
-from AoC2015.utils import load
+from 2015.utils import load
 
 
 def process(daynum):
