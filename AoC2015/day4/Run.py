@@ -25,7 +25,7 @@ def process_part1(line):
   key = line
   seed = 0
   md5 = ''
-  while md5[:6] != '000000':
+  while md5[:5] != '00000':
     seed += 1
     md5 = get_md5_hash(f'{key}{seed}')
 
@@ -34,4 +34,12 @@ def process_part1(line):
 
 
 def process_part2(line):
+  key = line
+  seed = 0
+  md5 = ''
+  while md5[:6] != '000000':
+    seed += 1
+    md5 = get_md5_hash(f'{key}{seed}')
+
+  print(f'{seed}:{md5}')
   return
