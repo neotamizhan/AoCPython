@@ -4,8 +4,8 @@ import re
 
 from AoC2015.utils import load
 
-def process():
-  lines = load('02',False)
+def process(daynum):
+  lines = load(daynum,False)
   process_part2(lines)
 
 def process_part2(lines):

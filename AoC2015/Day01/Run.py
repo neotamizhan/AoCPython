@@ -4,8 +4,8 @@ import sys
 from AoC2015.utils import load
 
 
-def process():
-  line = load('01',False)  
+def process(daynum):
+  line = load(daynum,False)  
   process_part2(line[0])
 
 def process_part1(line):
