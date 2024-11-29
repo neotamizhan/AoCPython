@@ -14,7 +14,7 @@ def import_process_function(year, day_number):
     return process_function
 
 year = '2015'
-day = 7 #Replace with the desired day number
+day = 8 #Replace with the desired day number
 process = import_process_function(year, day)
 process(day)
 
