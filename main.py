@@ -13,10 +13,10 @@ def import_process_function(year, day_number):
 
     return process_function
 
-year = '2015'
-day = 8 #Replace with the desired day number
+year = '2024'
+day = 1 #Replace with the desired day number
 process = import_process_function(year, day)
-process(day)
+process(day, 2)
 
 #if __name__ == "__main__":
 #  process()

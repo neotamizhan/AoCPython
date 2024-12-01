@@ -5,12 +5,14 @@ from AoC2015.utils import load
 #locals
 def char_len(line):
     print(line)
+    # Remove the surrounding quotes
+    if line.startswith('"') and line.endswith('"'):
+        print('removing quotes')
+        line = line[1:-1]
     # Decode the escape sequences
     decoded_line = codecs.decode(line, 'unicode_escape')
     
-    # Remove the surrounding quotes
-    if decoded_line.startswith('"') and decoded_line.endswith('"'):
-        decoded_line = decoded_line[1:-1]
+
     print(decoded_line)
     return len(decoded_line)
 

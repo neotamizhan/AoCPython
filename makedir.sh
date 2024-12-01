@@ -1,4 +1,4 @@
-cd AoC2015
+cd AoC2024
 mkdir day$1
 cd day$1
 cp ../../bootstrap.py Run.py
