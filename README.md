@@ -44,8 +44,7 @@ To run the solutions:
 2. Navigate to a specific day's folder and run the solution script:
 
    ```bash
-   cd 2024/Day01
-   python Run.py
+   python main.py
    ```
 
 ## ✨ Solutions Overview
