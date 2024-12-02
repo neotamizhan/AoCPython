@@ -1,6 +1,6 @@
 from AoC2024.utils import load
 
-#problem url: https://adventofcode.com/2024/day/
+#problem url: https://adventofcode.com/2024/day/3
 
 def process(daynum):
   level = 1
@@ -10,8 +10,8 @@ def process(daynum):
   else:
     process_part2(lines)
 
-def process_part1(line):
+def process_part1(lines):
   return 
 
-def process_part2(line):
+def process_part2(lines):
   return
