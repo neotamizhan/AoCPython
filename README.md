@@ -20,7 +20,8 @@ AoCPython/
   |-- 2024/
        |-- Day01/
            |-- Run.py
-           |-- data-day01.txt
+           |-- data.txt
+          |-- data-sample.txt
        |-- Day02/
            |-- solution.py
            |-- input.txt
