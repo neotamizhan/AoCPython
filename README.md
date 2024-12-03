@@ -20,10 +20,12 @@ AoCPython/
   |-- 2024/
        |-- Day01/
            |-- Run.py
-           |-- data-day01.txt
+           |-- data.txt
+           |-- data-sample.txt
        |-- Day02/
-           |-- solution.py
-           |-- input.txt
+           |-- Run.py
+           |-- data.txt
+           |-- data-sample.txt
        ...
 ```
 
@@ -44,8 +46,7 @@ To run the solutions:
 2. Navigate to a specific day's folder and run the solution script:
 
    ```bash
-   cd 2024/Day01
-   python Run.py
+   python main.py
    ```
 
 ## ✨ Solutions Overview
