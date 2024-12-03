@@ -21,10 +21,11 @@ AoCPython/
        |-- Day01/
            |-- Run.py
            |-- data.txt
-          |-- data-sample.txt
+           |-- data-sample.txt
        |-- Day02/
-           |-- solution.py
-           |-- input.txt
+           |-- Run.py
+           |-- data.txt
+           |-- data-sample.txt
        ...
 ```
 
