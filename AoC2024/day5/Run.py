@@ -1,6 +1,6 @@
 from AoC2024.utils import load
 
-#problem url: https://adventofcode.com/2024/day/
+#problem url: https://adventofcode.com/2024/day/5
 
 def process(daynum):
   level = 1
